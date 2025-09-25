@@ -8,10 +8,10 @@ public class Calculator {
         Scanner calc = new Scanner(System.in);
 
         System.out.println("Enter the first number: ");
-        int firstNum = calc.nextInt();
+        double firstNum = calc.nextDouble();
 
         System.out.println("Enter the second number: ");
-        int secondNum = calc.nextInt();
+        double secondNum = calc.nextDouble();
 
         calc.nextLine();
 
@@ -23,7 +23,7 @@ public class Calculator {
                 "Please select an option: ");
         String operation = calc.nextLine();
 
-        int result = firstNum * secondNum;
+        double result = firstNum * secondNum;
         System.out.println("The result is : " + result);
 
     }
