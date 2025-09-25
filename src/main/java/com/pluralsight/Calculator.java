@@ -7,15 +7,15 @@ public class Calculator {
 
         Scanner calc = new Scanner(System.in);
 
-        System.out.println("Enter the first number: ");
+        System.out.print("Enter the first number: ");
         double firstNum = calc.nextDouble();
 
-        System.out.println("Enter the second number: ");
+        System.out.print("Enter the second number: ");
         double secondNum = calc.nextDouble();
 
         calc.nextLine();
 
-        System.out.println("Possible calculations:\n" +
+        System.out.print("Possible calculations:\n" +
                 "(A)dd\n" +
                 "(S)ubtract\n" +
                 "(M)ultiply\n" +
